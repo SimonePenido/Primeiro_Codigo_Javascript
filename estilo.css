@@ -1,4 +1,4 @@
-html{
+maxWidthhtml{
     background-color: #020200;
     color: #F2D43D;
     text-align: center;
@@ -18,6 +18,24 @@ p{
 
 img{
     width: 800px;
+}
+
+.maxWidth{
+    max-width: 90em;
+}
+
+@media screen and (min-width: 48em){
+    .body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 48em){
+    .body{
+        width: calc(50% - 2rem);
+    }
 }
 
 footer{
