@@ -1,0 +1,26 @@
+html{
+    background-color: #020200;
+    color: #F2D43D;
+    text-align: center;
+    padding: 3em;
+}
+
+h1{
+   font-size: 4em;
+}
+
+p{
+   font-size: 3em;
+   text-transform: uppercase;
+}
+
+
+img{
+    width: 800px;
+}
+
+footer{
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 2em;
+}
