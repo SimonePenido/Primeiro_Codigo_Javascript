@@ -4,42 +4,48 @@ html{
     text-align: center;
     padding: 3em;
     font-family: sans-serif;
+    margin: 0;
 }
 
 h1{
-   font-size: 4em;
+   font-size: 2.5em;
 }
 
 p{
-   font-size: 3em;
+   font-size: 2em;
    text-transform: uppercase;
 }
 
-
-img{
-    width: 800px;
-}
-
-.maxWidth{
+.maxWidith{
     max-width: 90em;
 }
 
 @media screen and (min-width: 48em){
-    .body{
+    .main-content{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        width: calc(50%-2rem);
+        justify-content: center;
+        box-sizing: border-box;
+        height: 100vh;
     }
 }
 
-@media screen and (min-width: 48em){
-    .body{
-        width: calc(50% - 2rem);
-    }
+.main-img{
+    width: 800px;
+    height: 80%;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+.col{
+   flex: 1 0 auto;
+   width: 100%;
 }
 
 footer{
-    font-size: 1.5em;
+    font-size: 1em;
     font-style: italic;
     padding: 2em;
+    margin-top: 5em;
 }
